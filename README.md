@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Davidmide02/Huddle-Landing-page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/Davidmide02/Huddle-Landing-page.git)
+- Live Site URL: [Live site URL here](https://davidmide02.github.io/Huddle-Landing-page/)
 
 ## My process
 - Started with a general analysis of the page
@@ -53,14 +53,14 @@ Users should be able to:
 
 ### What I learned
 
-- How center a div properly with Flex or Position
+- How to center a div properly with Flex or Position
 - Media queries
 - Complex Flexbox
 - Box-shadow
 To see how you can add code snippets, see below:
 
 ```css
-To center a Div
+//To center a Div
 .container {
   position: aboslute;
   top:50%;
