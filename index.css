@@ -1,0 +1,375 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* body */
+body {
+    font-size: 1.12rem;
+
+}
+
+/* the class containing author and challenge source */
+
+.attribution {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color:hsl(192, 100%, 9%);
+  }
+
+  .attribution a {
+    color: hsl(322, 100%, 66%);
+  }
+
+  /* all the h2 tags/ headings*/
+
+h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+/* All the p tags */
+
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* header */
+header {
+    padding: 3rem;
+    background-image: url(/images/bg-hero-desktop.svg);
+    /* background-position: 100%; */
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+
+}
+
+/* logo */
+.brand-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* try-it-button */
+.try-it-bnt {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.2rem 1.5rem;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 5px hsl(208, 11%, 55%);
+
+}
+
+.try-it-bnt:hover {
+    background-color: whitesmoke;
+}
+
+/* .div-header */
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+}
+
+/* The div containing Build your Community... */
+.build-header {
+    margin: 5rem auto auto auto;
+    padding-right: 22rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.build-p {
+    padding: 2rem 14rem 0rem 0rem;
+}
+
+
+
+
+
+
+
+/* The class for all the other div */
+.div-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 3rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px hsl(208, 11%, 55%);
+}
+/* reversed image */
+#reverse{
+
+    flex-direction: row-reverse;
+}
+/* reversed image */
+#reverse-2{
+    flex-direction: row-reverse;
+}
+
+/* paragraph text */
+.common {
+    padding: 2rem 0rem;
+}
+
+
+
+/* size of all the images */
+.size {
+    width: 50%;
+}
+
+
+
+
+/* get Started button */
+.div-start-bnt {
+    padding: 2rem 0rem;
+}
+
+/* The start button */
+
+.start {
+     
+    padding: 0.7rem 2rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 2px 5px hsl(187, 79%, 65%);
+}
+
+.start:hover{
+    background-color: hsl(322, 81%, 75%) ;
+}
+
+/* The div containing the texts */
+.text {
+    width: 30%;
+}
+
+/* div after the main */
+
+.sub-main {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+
+
+
+}
+/* the div befor footer */
+.free {
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px hsl(208, 11%, 55%);
+
+}
+/* Footer */
+footer {
+    display: flex;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+    align-content: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    height: 50vh;
+
+
+}
+
+/* List */
+
+ul {
+    font-size: 16px;
+    padding: 2rem 0rem;
+    list-style: none;
+
+}
+
+ul li {
+    padding: 0.2rem 0rem;
+}
+
+/* The address class */
+
+.lorem {
+
+    width: 20%;
+}
+/* Huddle footer logo */
+.footer-logo2 {
+    color: white;
+    width: 50%;
+
+}
+
+/* social medials and copyright */
+.social {
+    margin-top: 2rem;
+    color: white;
+}
+/* social media icon class */
+.fa-brands {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+
+
+}
+
+.fa-brands:hover {
+    color: hsl(322, 100%, 66%);
+}
+/* copyright text */
+.copyright {
+    padding: 15rem 0rem;
+
+}
+
+
+
+/* 480px screen  */
+@media only screen and (max-width: 480px) {
+/* Body */
+    body {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        
+        box-sizing: border-box;
+        
+    }
+    /* header */
+    header {
+        background-image: url(/images/bg-hero-mobile.svg);
+        background-position: 100%; 
+        background-repeat: no-repeat;
+        background-color: hsl(193, 100%, 96%);
+        margin: 0rem;
+        padding: 1rem ;
+    
+    }
+
+    /* try-it-button */
+    .try-it-bnt {
+
+    
+        border-radius: 1rem;
+         padding: 0.5px 3.5px;
+         
+    }
+    
+   /* Huddle logo */
+    .huddle-logo{
+        width: 40%;
+    }
+
+    /* The div containing Build your Community... */
+
+    .div-header {
+        display: block;
+        
+    }
+
+    .build-header{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .build-p{
+        padding: 0rem;
+    }
+/* size of all the images */
+    .size{
+        width: 100%;
+       
+
+
+    }
+
+    /* The class for all the other div */
+
+.div-all{
+    display: block;
+    padding: 1rem 0rem;
+    margin: 0rem;
+    /* width: 100%; */
+}
+/* The text class */
+.text{
+    width: 100%;
+    padding: 1rem 0rem;
+
+}
+
+/* paragraph text */
+.common{
+    padding: 1rem 0rem;
+}
+/* the div befor footer */
+
+.free{
+    padding: 0.5rem 1rem;
+    width: 80%;
+}
+/* Footer */
+footer{
+    display: block;
+    text-align: left;
+    padding: 1.5rem 0rem 0rem 0.25rem;
+    height: 60vh;
+}
+
+/* List */
+ul{
+    font-size: smaller;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+ul li {
+    padding: 0rem;
+}
+
+/* The address class */
+
+.lorem{
+    width: 100%;
+}
+        
+/* social medials and copyright */
+
+.social{
+    margin-top: 0rem;
+    text-align: center;
+
+}
+
+
+/* copyright text */
+.copyright{
+    padding: 1rem 0rem 0rem 0rem;
+}
+.last{
+    padding: 1rem 0rem;
+}
+/* the class containing author and challenge source */
+.attribution{
+    font-size: 10px;
+}
+    
+}
